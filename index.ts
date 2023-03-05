@@ -70,7 +70,7 @@ export function jsonToExcel(dir) {
         listFileDir.forEach(filePath => {
             const fileType = path.parse(filePath).ext;
             const _fileType = fileType.toLowerCase();
-            if (_fileType === 'json') {
+            if (_fileType === '.json') {
                 keyWords.push(path.parse(filePath).name);
             }
         });

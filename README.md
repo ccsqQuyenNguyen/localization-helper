@@ -1,5 +1,5 @@
 RUn with
 
 ```
-npm run start -- dir=./localization
+npx localization_util convert ./localization
 ```

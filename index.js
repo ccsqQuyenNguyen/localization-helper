@@ -64,12 +64,13 @@ function handleJsonFile(filePath) {
 var excelFile = "./result.xlsx";
 function jsonToExcel(dir) {
     var listFileDir = (0, utils_1.getDirectories)(dir);
+    console.log('listFileDir', listFileDir);
     if (listFileDir.length) {
         var keyWords_1 = [];
         listFileDir.forEach(function (filePath) {
             var fileType = path.parse(filePath).ext;
             var _fileType = fileType.toLowerCase();
-            if (_fileType === 'json') {
+            if (_fileType === '.json') {
                 keyWords_1.push(path.parse(filePath).name);
             }
         });

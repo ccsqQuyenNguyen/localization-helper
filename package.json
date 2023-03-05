@@ -1,6 +1,6 @@
 {
   "name": "localization_util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This library will help you cover all localization file json to .xlsx and maybe do the reverse",
   "main": "index.ts",
   "bin": {
